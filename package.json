@@ -1,0 +1,31 @@
+{
+  "name": "ts-superset-myth",
+  "version": "1.0.0",
+  "description": "Experimenting with ES2015 -> TypeScript compatibility",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "webpack --display-reasons",
+    "start": "webpack-dev-server --port 7005"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbandi/ts-superset-myth.git"
+  },
+  "homepage": "https://github.com/jbandi/ts-superset-myth#readme",
+  "dependencies": {
+    "lodash": "4.13.1",
+    "ramda": "0.21.0"
+  },
+  "devDependencies": {
+    "babel-core": "6.10.4",
+    "babel-loader": "6.2.4",
+    "babel-preset-es2015": "6.9.0",
+    "webpack": "1.13.1",
+    "webpack-dev-server": "1.14.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
