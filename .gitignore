@@ -1,4 +1,5 @@
 /build/
+/dist/
 
 # Logs
 logs
@@ -39,4 +40,5 @@ jspm_packages
 .node_repl_history
 
 .idea
+
 
