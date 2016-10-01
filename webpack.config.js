@@ -12,9 +12,9 @@ module.exports = {
     },
     module: {
         loaders: [
-            {test: /\.js$/, loader: 'babel', exclude: /node_modules/},
+            // {test: /\.js$/, loader: 'babel', exclude: /node_modules/},
             // {test: /\.js$/, loader: 'babel'},
-            // {test: /\.ts$/, loader: 'awesome-typescript', exclude: /node_modules/}
+            {test: /\.ts$/, loader: 'ts', exclude: /node_modules/}
         ]
     }
 };

@@ -5,6 +5,7 @@
   "main": "src/app.js",
   "scripts": {
     "build": "webpack --display-reasons",
+    "compile": "tsc",
     "start": "webpack-dev-server --port 7005"
   },
   "repository": {
@@ -13,10 +14,12 @@
   },
   "homepage": "https://github.com/jbandi/ts-superset-myth#readme",
   "dependencies": {
-    "lodash": "4.13.1",
+    "lodash": "4.16.2",
     "ramda": "0.21.0"
   },
   "devDependencies": {
+    "@types/lodash": "4.14.36",
+    "ts-loader": "0.8.2",
     "typescript": "2.0.3",
     "webpack": "2.1.0-beta.25",
     "webpack-dev-server": "2.1.0-beta.8"
