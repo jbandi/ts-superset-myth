@@ -1,3 +1,4 @@
+// import {map} from 'lodash';
 import map from 'lodash/map';
 
 export function calculate(input){

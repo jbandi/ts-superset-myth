@@ -8,7 +8,7 @@ module.exports = {
         path: __dirname
     },
     resolve: {
-        extensions: ['', '.ts', '.js']
+        extensions: ['.ts', '.js']
     },
     module: {
         loaders: [
