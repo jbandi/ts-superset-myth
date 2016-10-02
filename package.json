@@ -4,6 +4,7 @@
   "description": "Experimenting with ES2015 -> TypeScript compatibility",
   "main": "src/app.js",
   "scripts": {
+    "clean": "rimraf build dist",
     "build": "webpack --display-reasons",
     "compile": "tsc",
     "start": "webpack-dev-server --port 7005"
