@@ -16,7 +16,8 @@ To load the examples in the browser:
     
 Then browse to `http://localhost:7005/`
 
+The example comes with the following branches:
 
-This example throws compilation errors even though the code is valid ES2016.
-
-Go to the branch `es2015` to see exactly the same code running with Babel/Webpack.
+- master: this represents be a port of a es2015 codebase without code changes. The TypeScript compiler throws errors.
+- es2015: the original codebase. Working fine with Babel/WebPack
+- typescript: the fixed codebase with valid TypeScript. 
