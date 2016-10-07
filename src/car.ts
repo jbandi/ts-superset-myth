@@ -1,5 +1,5 @@
 export default class Car {
-    constructor(private weight) {
+    constructor(public weight) {
         this.weight = weight;
     }
 }

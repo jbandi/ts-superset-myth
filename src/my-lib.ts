@@ -1,8 +1,8 @@
-const first = {};
+const first = {
+    name: 'Tyler Durden'
+};
 
-first.name = 'Tyler Durden';
 
-//
 const prop = 'organization';
 const second = {
     name: 'Tyler Durden',
