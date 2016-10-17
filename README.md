@@ -1,6 +1,8 @@
 # ts-superset-myth
 Experimenting with ES2015 -> TypeScript compatibility
 
+See: http://blog.jonasbandi.net/2016/10/myth-of-superset.html
+
 To get started:
 
     npm install
